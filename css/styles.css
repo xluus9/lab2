@@ -9,6 +9,7 @@ body, .header li, .mainpart {
 	padding: 10px;
 }
 
+/*changes the style of the body*/
 body {
 	background-image: url(../img/texture-light.png);
 	background-repeat: repeat;
@@ -16,6 +17,7 @@ body {
 	font-size: 18px;
 }
 
+/*changes style of the main part of the page*/
 .mainpart {
 	background-color: #FFFFFF;
 	border: 1px solid #CCC;
@@ -24,6 +26,7 @@ body {
 	width: 80%;
 }
 
+/*header styles*/
 .header {
 	padding-bottom: 10px;
 	padding-right: 8px;
@@ -49,6 +52,7 @@ h2 {
 	margin-bottom: 10px;
 }
 
+/*body and header styles*/
 .bodypart div, .header p {
 	margin-top: 10px;
 }
