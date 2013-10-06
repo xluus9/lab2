@@ -1,27 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<title>Widgets-R-Us</title>
-		<meta name="author" content="luus">
-		<link rel="shortcut icon" href="img/logo-small.png">
-	</head>
-
-	<body>
-		<div class="mainpart">
-			<div class="header">
-				<img src="img/logo.png" alt="logo icon">
-
-				<h1>Widgets-R-Us</h1>
-
-				<p>Making high-quality widgets since 1991</p>
-
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-				</ul>
-			</div>
+	<!--#include virtual="inc/header.html" -->
 
 			<div class="bodypart">
 				<div>
@@ -60,17 +39,7 @@
 				</div>
 			</div>
 
-			<div class="footer">
-				<p>We ship for free in the continental United States! Call or <a href="sales@widgetsrus.com">email us</a> to place an order today.</p>
-
-				<br>
-
-				<p>&copy; 2013 Widgets-R-Us</p>
-
-				<br>
-
-				<a href="https://github.com/xluus9/lab2">Source repository</a>
-			</div>
+			<!--#include virtual="inc/footer.html" -->
 		</div>
 	</body>
 </html>
