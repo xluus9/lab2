@@ -5,3 +5,118 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body, .header li, .mainpart {
+	padding: 10px;
+}
+
+body {
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.mainpart {
+	background-color: #FFFFFF;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 1px #888;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.header {
+	padding-bottom: 10px;
+	padding-right: 8px;
+	padding-top: 15px;
+
+}
+
+h1, h2, h3, .header a {
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	color: #116189;
+}
+
+h1 {
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.bodypart div, .header p {
+	margin-top: 10px;
+}
+
+.footer, .header p {
+	font-style: italic;
+}
+
+.header p {
+	font-size: 120%;
+}
+
+.header img, .left, .team img {
+	float: left;
+}
+
+.header img {
+	margin-bottom: 15px;
+	margin-right: 6px;
+}
+
+.header ul {
+	background-color: #D74710;
+	border-radius: 5px;
+	clear: left;
+}
+
+.header li {
+	display: inline-block;
+}
+
+.footer a, .header a {
+	text-decoration: none;
+}
+
+.header a {
+	color: #FFFFFF;
+}
+
+.header a:hover {
+	background-color: #FF9D45;
+}
+
+.left {
+	margin-bottom: 10px;
+	margin-right: 10px
+}
+
+.right {
+	float: right;
+}
+
+.footer {
+	border-style: solid;
+	border-top:thin double #C0C0C0;
+	clear: both;
+	font-size: 80%;
+	padding-top: 10px;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.team {
+	margin-bottom: 50px;
+}
+
+.team img {
+	margin-right: 5px;
+}
